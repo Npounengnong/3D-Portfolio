@@ -23,6 +23,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    Csharp,
+    sql,
+    dotNet,
+    leidos,
+    project,
+    visualstudio,
+    vscode,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +53,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React.JS Developer",
       icon: mobile,
     },
     {
@@ -54,9 +61,26 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Software Documentation",
       icon: creator,
     },
+    {
+      title: ".NET MVC",
+      icon: dotNet,
+    },
+    {
+      title: "Sql Developer",
+      icon: sql,
+    },
+    {
+      title: "Visual Studio",
+      icon: visualstudio,
+    },
+    {
+      title: "Visual Studio Code",
+      icon: vscode,
+    },
+
   ];
   
   const technologies = [
@@ -73,8 +97,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "C#",
+      icon: Csharp,
     },
     {
       name: "React JS",
@@ -93,8 +117,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "SQL",
+      icon: sql,
     },
     {
       name: "Three JS",
@@ -105,10 +129,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -116,29 +136,33 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer",
+      company_name: "Project",
+      icon: project,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2020 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created applications using C#, ASP.NET with MVC and Razor Pages, incorporating AJAX, HTML, CSS, JavaScript, and SQL Server",
+        "Utilized ADO.NET with Entity Framework Core's Database First Approach",
+        "Implemented N-tier Architecture for application development, consisting of presentation layer, data access layer, and business logic layer",
+        "Proficient in Client-side and Server-side state management techniques including ViewState, cookies, and Session",
+        "Employed Razor Views and integrated Viewbag, Tempdata, and Session to facilitate data transfer between views and controllers",
+        "and much more...",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Developer",
+      company_name: "Project",
+      icon: project,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2022 - July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed business and database logic through Entity Framework and Repository Pattern",
+        "Crafted TypeScript components and services, employing React's Component-based architecture to consume REST APIs",
+        "Designed UI components in React, featuring filters for diverse data dimensions and font size adjustments",
+        "Constructed Restful services with Web API, formatting JSON responses using Web API media type format",
+        "Developed and modified SQL Stored Procedures, Triggers, and Views, integrating them effectively with applications and handling complex queries",
+        "and much more...",
       ],
     },
     {
@@ -146,7 +170,7 @@ import {
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2022 - August 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -156,15 +180,16 @@ import {
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "Leidos",
+      icon: leidos,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "September 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Engaged in various SDLC phases, applying Agile methodologies for requirement analysis and architectural design for legacy applications",
+        "Undertook six immediate projects outside my expertise, achieving successful completion and garnering approval from senior developers and colleagues",
+        "Revised, modularized, and updated old code bases to modern development standards, reducing operating costs and improving functionality",
+        "Introduced automated diagnostics for sensor data collection and processing",
+        "Optimized application performance via strategic modifications to MS SQL stored procedures"
       ],
     },
   ];
@@ -172,56 +197,56 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "I thought it was impossible to make a website as beautiful as our product, but Aurel proved me wrong.",
+      name: "Marthe Koanou",
+      designation: "CEO",
+      company: "Joy Healthcare Services",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a web developer who truly cares about their clients' success like Aurel does.",
+      name: "Alexis De Silva",
+      designation: "CEO",
+      company: "AKA Moneymom",
+      image: "https://randomuser.me/api/portraits/women/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "After Aurel optimized our website, our traffic increased by 50%. We can't thank jim enough!",
+      name: "Zackaria Hitane",
+      designation: "CEO",
+      company: "Leonexa Solutions",
+      image: "https://randomuser.me/api/portraits/men/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Cobra X Talisman",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "E-Commerce Store complete with an admin backend website for order fullfillment using stripe API and mailSender for a complete user experience ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "SQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "dotNet",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/", //To do. 
     },
     {
-      name: "Job IT",
+      name: "Restaurant",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to browse for dishes, make reservations, and leave a review. Complete with an Admin panel in the back end and various authenticaiton methods",
       tags: [
         {
           name: "react",
@@ -232,7 +257,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "dotnet",
           color: "pink-text-gradient",
         },
       ],
