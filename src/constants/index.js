@@ -11,15 +11,10 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
     shopify,
-    carrent,
+    frontend,
     jobit,
     tripguide,
     threejs,
@@ -240,11 +235,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/", //To do. 
+      image: frontend,
+      source_code_link: "https://github.com/Npounengnong/CobraXTalisman", //To do. 
     },
     {
-      name: "Restaurant",
+      name: "Dawg In Him ",
       description:
         "Web application that enables users to browse for dishes, make reservations, and leave a review. Complete with an Admin panel in the back end and various authenticaiton methods",
       tags: [
@@ -261,8 +256,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: jobit, // To Do still
+      source_code_link: "https://github.com/Npounengnong/DawgInHim",
     },
     {
       name: "Trip Guide",
