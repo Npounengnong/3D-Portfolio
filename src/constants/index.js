@@ -25,6 +25,7 @@ import {
     project,
     visualstudio,
     vscode,
+    Alexis
   } from "../assets";
   
   export const navLinks = [
@@ -204,7 +205,7 @@ import {
       name: "Alexis De Silva",
       designation: "CEO",
       company: "AKA Moneymom",
-      image: "https://randomuser.me/api/portraits/women/5.jpg",
+      image: Alexis,
     },
     {
       testimonial:
@@ -236,12 +237,12 @@ import {
         },
       ],
       image: frontend,
-      source_code_link: "https://github.com/Npounengnong/CobraXTalisman", //To do. 
+      source_code_link: "https://github.com/Npounengnong/CobraXTalisman", 
     },
     {
       name: "Dawg In Him ",
       description:
-        "Web application that enables users to browse for dishes, make reservations, and leave a review. Complete with an Admin panel in the back end and various authenticaiton methods",
+        "Web application that enables users to browse and buy books. Complete with an Admin panel in the back end and various authenticaiton methods as well as payment integration with stripe. ",
       tags: [
         {
           name: "react",
@@ -256,29 +257,33 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit, // To Do still
+      image: jobit,
       source_code_link: "https://github.com/Npounengnong/DawgInHim",
     },
     {
-      name: "Trip Guide",
+      name: "Red Mango",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive Full stack application built in .NET 7.0. this is a restaurant application  where you can make reservations, plae online orders and included payment integration with Striep and a cloud database with Azure.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "ASP.NET MVC",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Csharp",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Azure",
+          color: "red-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Npounengnong/React-RedMango_API",
     },
   ];
   

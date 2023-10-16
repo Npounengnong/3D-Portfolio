@@ -38,6 +38,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png"; 
 
 import frontend from "./frontend.png" 
+import Alexis from "./Alexis.jpg"
 
 export {
   logo,
@@ -76,4 +77,5 @@ export {
   visualstudio,
   vscode,
   frontend,
+  Alexis
 };
