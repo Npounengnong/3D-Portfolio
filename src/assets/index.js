@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import Csharp from "./tech/Csharp.png";
-import dotNet from "./tech/dotNet.png";
+import dotNET from "./tech/dotNET.png";
 import sql from "./tech/sql.png";
 import visualstudio from "./tech/visualstudio.png"
 import vscode from "./tech/vscode.png"
@@ -72,7 +72,7 @@ export {
   leidos,
   project,
   Csharp,
-  dotNet,
+  dotNET,
   sql,
   visualstudio,
   vscode,
