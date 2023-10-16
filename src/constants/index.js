@@ -20,12 +20,12 @@ import {
     threejs,
     Csharp,
     sql,
-    dotNet,
     leidos,
     project,
     visualstudio,
     vscode,
-    Alexis
+    Alexis,
+    dotNET
   } from "../assets";
   
   export const navLinks = [
@@ -62,7 +62,7 @@ import {
     },
     {
       title: ".NET MVC",
-      icon: dotNet,
+      icon: dotNET,
     },
     {
       title: "Sql Developer",
