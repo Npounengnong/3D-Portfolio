@@ -208,7 +208,7 @@ import {
     },
     {
       testimonial:
-        "After Aurel optimized our website, our traffic increased by 50%. We can't thank jim enough!",
+        "After Aurel optimized our website, our traffic increased by 50%. We can't thank him enough!",
       name: "Zackaria Hitane",
       designation: "CEO",
       company: "Leonexa Solutions",
