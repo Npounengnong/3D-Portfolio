@@ -263,7 +263,7 @@ import {
     {
       name: "Red Mango",
       description:
-        "A comprehensive Full stack application built in .NET 7.0. this is a restaurant application  where you can make reservations, plae online orders and included payment integration with Striep and a cloud database with Azure.",
+        "A comprehensive Full stack application built in .NET 7.0. this is a restaurant application  where you can make reservations, place online orders and included payment integration with Stripe and a cloud database with Azure.",
       tags: [
         {
           name: "nextjs",
