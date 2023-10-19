@@ -25,7 +25,8 @@ import {
     visualstudio,
     vscode,
     Alexis,
-    dotNET
+    dotNET,
+    threads
   } from "../assets";
   
   export const navLinks = [
@@ -284,6 +285,31 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/Npounengnong/React-RedMango_API",
+    },
+    {
+      name: "Threads Clone",
+      description:
+        "A META Theads clone developed  using the MongoDb,ExpressJs,React,Node.JS(MERN) stack. This applicaiton features authentication provided by clark as well as very robust security features and user management.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Azure",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: threads,
+      source_code_link: "https://github.com/Npounengnong/threads",
     },
   ];
   
