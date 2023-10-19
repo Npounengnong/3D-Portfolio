@@ -289,7 +289,7 @@ import {
     {
       name: "Threads Clone",
       description:
-        "A META Theads clone developed  using the MongoDb,ExpressJs,React,Node.JS(MERN) stack. This applicaiton features authentication provided by clark as well as very robust security features and user management.",
+        "A META Theads clone developed  using the MongoDb,ExpressJs,React and Node.JS otherwise known as the (MERN) tech stack. This applicaiton features authentication provided by clark as well as very robust security features and user management.",
       tags: [
         {
           name: "nextjs",
