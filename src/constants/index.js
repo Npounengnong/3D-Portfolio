@@ -304,7 +304,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Azure",
+          name: "Clerk Authentication",
           color: "orange-text-gradient",
         },
       ],
