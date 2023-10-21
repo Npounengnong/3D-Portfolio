@@ -243,7 +243,7 @@ import {
     {
       name: "Dawg In Him ",
       description:
-        "Web application that enables users to browse and buy books. Complete with an Admin panel in the back end and various authenticaiton methods as well as payment integration with stripe. ",
+        "Web application that enables users to browse and buy books. Complete with an Admin panel in the back end and various authentication methods as well as payment integration with stripe. ",
       tags: [
         {
           name: "react",
@@ -289,7 +289,7 @@ import {
     {
       name: "Threads Clone",
       description:
-        "A META Theads clone developed  using the MongoDb,ExpressJs,React and Node.JS otherwise known as the (MERN) tech stack. This applicaiton features authentication provided by clark as well as very robust security features and user management.",
+        "A META Theads clone developed  using the MongoDB, ExpressJs, React, and Node.JS otherwise known as the (MERN) tech stack. This application features authentication provided by clerk as well as very robust security features and user management.",
       tags: [
         {
           name: "nextjs",
