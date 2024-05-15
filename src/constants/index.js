@@ -283,7 +283,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/Npounengnong/Red-Mango-API",
+    source_code_link: "https://github.com/Npounengnong/React-RedMango_API",
   },
   {
     name: "Threads Clone",
